@@ -2,15 +2,12 @@
   #client-ip {
     color: #ff80ab;
   }
-
-  #aaa{
-    display: inline-block;
-  }
+  
   
 </style>
-
-<div id="aaa">이 컴퓨터의 IP 주소: <span id="client-ip"></span></div>
-
+<div style="width:100vw; height: 100vh; display: flex; align-items: center;">
+	<div style="border: 1px solid green; width:500px; height: 200px; line-height: 200px; text-align:center;  margin: 0 auto;"> 	이 컴퓨터의 IP 주소: <span id="client-ip"></span> </div>
+ </div>
 <script>
   // HTML의 <script> 요소를 생성한다
   const se = document.createElement('script');
